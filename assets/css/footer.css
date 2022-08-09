@@ -1,0 +1,38 @@
+.footer{
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.footer-links-panel .footer-link-title{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: .75rem;
+}
+
+.footer-links-panel .footer-link-title:before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    left: -29px;
+    width: 20px;
+    height: 2px;
+    background-color: var(--text-black);
+}
+
+.footer-links-panel .footer-link-list{
+    padding: 5px 0;
+}
+
+.footer-links-panel .footer-link-list a{
+    color: grey;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-links-panel .footer-link-list a:hover{
+    color: var(--primary-color);
+}
